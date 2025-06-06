@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div style="text-align: center;">
+    <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Photo" width="150" style="border-radius: 50%;">
+    <h2>Hello, I'm Someone </h2>
+    <p><i>A Passionate Python developer focused on web development and AI.</i></p>
+
+    <h3>Skills</h3>
+    <ul style="list-style: none; padding: 0;">
+        <li>🐍 Python</li>
+        <li>🌐 HTML, CSS, JS</li>
+        <li>📊 Flask, Django</li>
+        <li>🧠 Machine Learning</li>
+    </ul>
+    <h3>Connect with me</h3>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+    <a href="https://linkedin.com/in/yourname" target="_blank">LinkedIn</a>
+</div>
+{% endblock %}

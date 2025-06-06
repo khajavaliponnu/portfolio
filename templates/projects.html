@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>My Projects</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <div style="border: 1px solid #ccc; padding: 15px; width: 300px; border-radius: 8px; background-color: #f9f9f9;">
+        <h3>Portfolio Website</h3>
+        <p>A personal website built with Flask and Python.</p>
+        <p><strong>Tech:</strong> Flask, HTML, CSS</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank">🔗 View Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; padding: 15px; width: 300px; border-radius: 8px; background-color: #f9f9f9;">
+        <h3>Fake News Detector</h3>
+        <p>Detects fake news using NLP and machine learning.</p>
+        <p><strong>Tech:</strong> Python, Sklearn, NLP</p>
+        <a href="https://github.com/yourusername/fake-news-detector" target="_blank">🔗 View Code</a>
+    </div>
+</div>
+{% endblock %}
